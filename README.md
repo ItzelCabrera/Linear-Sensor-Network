@@ -12,6 +12,7 @@ En el escenario de evaluación se tiene una red lineal de sensores, con las sigu
 •	Número de ciclos = 100,000. Esto debido a que con 300,000 ciclos, el tiempo de espera para terminar de ejecutar una simulación era demasiado extenso.
 
 Así mismo, hay que tener en cuenta que:
+
 •	Se considera un ruteo simple (si un pkt se recibió o generó en el nodo x del grado i, entonces este pkt se transmitirá al nodo x del grado i-1).
 •	Al generarse los pkts, estos se asignan de forma aleatoria a un nodo de toda la red (con una distribución uniforme). 
 •	La generación de pkts tiene una distribución de Poisson.
