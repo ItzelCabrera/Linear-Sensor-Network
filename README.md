@@ -1,6 +1,7 @@
 # Linear-Sensor-Network
 Para este proyecto, se tomó como referencia la simulación de eventos discretos, esto debido a que el sistema se podía representar por una serie de eventos discretos y porque las variables que definen el estado del sistema van cambiando únicamente en un conjunto discreto de instantes de tiempo. Cabe mencionar que los eventos que pueden cambiar el estado del sistema son dos: la generación de paquetes y la tx/rx de paquetes. 
 En el escenario de evaluación se tiene una red lineal de sensores, con las siguientes características.
+
 •	Número de grados = 7
 •	Número de nodos por grado = [5,10,15,20]
 •	Longitud del buffer de cada nodo = 15 espacios
